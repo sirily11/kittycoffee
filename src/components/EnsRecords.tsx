@@ -17,6 +17,12 @@ const stats = [
     value: "rights.nft.kittycoffee.eth",
     href: "https://app.ens.domains/rights.nft.kittycoffee.eth",
   },
+  {
+    id: 4,
+    name: "向她许下的诺言",
+    value: "promise.nft.kittycoffee.eth",
+    href: "https://app.ens.domains/promise.nft.kittycoffee.eth",
+  },
 ];
 
 export default function EnsRecords() {
