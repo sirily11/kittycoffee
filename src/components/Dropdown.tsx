@@ -26,6 +26,12 @@ export default function Dropdown() {
       href: "https://app.ens.domains/kittycoffee.eth",
       description: "DID, 绑定着我们的恋爱合约, 述说着我们的故事～",
     },
+    {
+      name: "分手权益NFT",
+      href: "https://etherscan.io/address/0x5A4987DfeCedfB862Dba88A72CD491035dA6416e",
+      description:
+        "分手权益NFT,每次分手后,只有被分手的人能够分手,同时分手权益自动转移到被分手对象手上。",
+    },
   ];
 
   return (

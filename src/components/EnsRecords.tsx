@@ -15,7 +15,7 @@ const stats = [
     id: 3,
     name: "分手权益 NFT",
     value: "rights.nft.kittycoffee.eth",
-    href: "https://etherscan.io/address/0x5A4987DfeCedfB862Dba88A72CD491035dA6416e",
+    href: "https://app.ens.domains/rights.nft.kittycoffee.eth",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function EnsRecords() {
               去中心化域名，用Web3技术记录着点点滴滴
             </p>
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-2">
+          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
             {stats.map((stat) => (
               <a
                 key={stat.id}
