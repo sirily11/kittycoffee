@@ -25,6 +25,8 @@ export const metadata = {
   },
 };
 
+export const runtime = "edge";
+
 export default function Example() {
   return (
     <div className="bg-white">
