@@ -32,6 +32,11 @@ export default function Dropdown() {
       description:
         "分手权益NFT,每次分手后,只有被分手的人能够分手,同时分手权益自动转移到被分手对象手上。",
     },
+    {
+      name: "对她许下的承诺",
+      href: "https://opensea.io/assets/ethereum/0x9ebec3e9e8fb474f4d7f50f6f9c8057e65d5f9f2/1",
+      description: "NFT, 记载着对她的承诺～",
+    },
   ];
 
   return (
