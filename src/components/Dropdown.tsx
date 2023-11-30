@@ -57,8 +57,8 @@ export default function Dropdown() {
         <Menu.Items className="absolute right-0 z-10 mt-2 w-80 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             {items.map((item, index) => (
-              <div>
-                <Menu.Item key={item.name}>
+              <div key={item.name}>
+                <Menu.Item>
                   {({ active }) => (
                     <a
                       href={item.href}
