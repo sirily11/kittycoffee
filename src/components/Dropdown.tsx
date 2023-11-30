@@ -56,21 +56,23 @@ export default function Dropdown() {
       >
         <Menu.Items className="absolute right-0 z-10 mt-2 w-80 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
-            {items.map((item) => (
-              <Menu.Item key={item.name}>
-                {({ active }) => (
-                  <a
-                    href={item.href}
-                    className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-sm"
-                    )}
-                  >
-                    <p className="tex font-bold">{item.name}</p>
-                    <p>{item.description}</p>
-                  </a>
-                )}
-              </Menu.Item>
+            {items.map((item, index) => (
+              <div>
+                <Menu.Item key={item.name}>
+                  {({ active }) => (
+                    <a
+                      href={item.href}
+                      className={classNames(
+                        active ? "bg-gray-100 text-gray-900" : "text-gray-700",
+                        "block px-4 py-2 text-sm"
+                      )}
+                    >
+                      <p className="tex font-bold">{item.name}</p>
+                      <p>{item.description}</p>
+                    </a>
+                  )}
+                </Menu.Item>
+              </div>
             ))}
           </div>
         </Menu.Items>
