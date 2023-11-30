@@ -11,6 +11,12 @@ const stats = [
     value: "kittycoffee.eth",
     href: "https://app.ens.domains/kittycoffee.eth",
   },
+  {
+    id: 3,
+    name: "分手权益 NFT",
+    value: "rights.nft.kittycoffee.eth",
+    href: "https://etherscan.io/address/0x5A4987DfeCedfB862Dba88A72CD491035dA6416e",
+  },
 ];
 
 export default function EnsRecords() {

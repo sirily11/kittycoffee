@@ -11,7 +11,7 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://kittycoffee.vercel.app",
+    url: "https://kittycoffee.love",
     title: "KittyCoffee",
     description: "KittyCoffee, 我们的Web3.0小屋",
     images: [
